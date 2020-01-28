@@ -7,6 +7,7 @@ from sys import argv
 
 eel.init('web')
 
+
 @eel.expose
 def generateMusic(data):
     download_options = {
